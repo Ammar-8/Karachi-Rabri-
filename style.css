@@ -1,3 +1,4 @@
+  
 *{
     padding: 0;
     margin: 0;
@@ -115,10 +116,11 @@ html{
     border-top: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;
 }
+
 /* navbar */
 
 /* banner */
-/* .banner{
+ /*.banner{
     padding: 20px;
     background: linear-gradient(0deg, rgb(0, 0, 0,0.4), rgb(0, 0, 0,0.4)), url('img/bg.jpg');
     width: 100%;
@@ -127,8 +129,7 @@ html{
     min-height: 100vh;
     position: relative;
     background-position: center center;
-}
-
+}/*
 .banner .banner-text{
     position: absolute;
     z-index: 2;
@@ -136,15 +137,12 @@ html{
     left: 50%;
     width: 90%;
     transform: translate(-50%,-50%);
-
 }
-
 .banner .banner-text h1{
     font-family: 'Dancing Script', cursive;
     color: white;
     font-size: 3.5rem;
 }
-
 .banner .banner-text p{
     color: white;
     letter-spacing: 1px;
@@ -152,7 +150,6 @@ html{
     font-family: 'Markazi Text', serif;
     margin-top: 20px;
 }
-
 .banner button.btn-contact{
     background-color: transparent;
     border: 1px solid white;
@@ -163,95 +160,27 @@ html{
     margin-top: 20px;
     transition: 0.3s linear;
 }
-
 .banner button.btn-contact a{
     color: white;
     text-decoration: none;
 }
-
 .banner button.btn-contact:hover{
     background-color: white;
     cursor: pointer;
 }
-
 .banner button.btn-contact:hover a{
     color:black
-} */
+} 
 
 /* slider */
 
-
+/* .carousel-item img {
+    height: 390px;
+} */
 
 /* banner */
 
-.full-slider-box{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.f-slide-1{
-    background-image: url(./img/img1.jpg) ;
-    height: 83.1vh;
-}
-
-.f-slide-2{
-    background-image: url(./img/img2.jpg);
-    height: 83.2vh;
-}
-
-.f-slide-3{
-    background-image: url(./img/img3.jpg);
-    height: 83.3vh;
-}
-.slider-text-container{
-    width: 80%;
-    height: 90%;
-    display: flex;
-    align-items: center;
-}
-
-.f-slider-text{
-    display: flex;
-    flex-direction: column;
-    margin-right: auto;
-}
-
-.f-slider-text strong{
-    color: #fff;
-    font-size: 3rem;
-    line-height: 55px;
-    margin-top: 10px;
-    letter-spacing: 1px;
-}
-
-.f-slider-text span{
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-weight: 500;
-    color: #fff;
-    font-size: 1.2rem;
-}
-
-.f-slider-btn{
-    width: 170px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background-color: #0b9d8a;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 10px;
-}
-
-.f-slider-text strong font{
-    color: aqua;
-}
 /* display */
 
 .display h5{
@@ -558,7 +487,7 @@ video{
 }
 
 @media only screen and (max-width: 280px){
-    .banner{
+    .slide{
         padding: 350px 20px;
     }
 }
@@ -581,9 +510,3 @@ video{
         min-height: 100vh;
     }
 }
-
-
-
-
-
-
